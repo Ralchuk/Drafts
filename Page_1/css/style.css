@@ -2,9 +2,52 @@
   margin: 0;
   padding: 0;
   border: 0;
-
+  text-decoration: none;
   font-size: 100%;
   font-style: normal;
   box-sizing: border-box;
   list-style: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+}
+
+/* page */
+
+.page {
+  display: flex;
+  flex-direction: column;
+  margin: 100px;
+  background-color: #fff;
+  width: 100%;
+  max-width: 1440px;
+  height: 800px;
+}
+
+/* header */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 21px 150px;
+}
+
+ul {
+  display: flex;
+  gap: 50px;
+}
+
+li button {
+  background-color: #fff;
+}
+
+.Login {
+  padding: 10px 50px;
+  background-color: #fff;
+  border: 1px solid #0cbbc7;
 }
