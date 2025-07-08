@@ -84,6 +84,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 21px 150px;
+  flex-wrap: wrap;
 }
 
 ul {
@@ -101,6 +102,11 @@ li button {
   border: 1px solid #0cbbc7;
 }
 
+.LOGO {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 /* body */
 
 .body {
@@ -115,4 +121,46 @@ li button {
   width: 100%;
   max-width: 779px;
   justify-content: center;
+  margin-top: 50px;
+  color: #191619;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.h2 {
+  display: flex;
+  width: 100%;
+  max-width: 447px;
+  justify-content: center;
+  margin-top: 20px;
+  color: #878787;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 22px;
+}
+
+/* button */
+
+.get {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 30px;
+  background-color: #0cbbc7;
+  gap: 10px;
+  padding: 14px 20px;
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.16px;
 }
